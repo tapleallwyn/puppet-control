@@ -27,3 +27,7 @@ mod 'role',
 mod 'nginx',
   :git => 'git@github.com:tapleallwyn/puppet-nginx.git',
   :ref => 'master'
+
+mod 'ntp',
+:git => 'https://github.com/rabbitheart/LA_puppet-ntp.git',
+:ref => 'master'
